@@ -12,6 +12,8 @@ const addNotes = (title, body) => {
 
   const duplicateNote = notes.find(note => note.title === title);
 
+  debugger;
+
   if (!duplicateNote) {
     //Titles not the same
     notes.push({
